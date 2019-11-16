@@ -2,14 +2,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>main</title>
+<title>Technevolution Manifesto</title>
 	<!-- "To remove your site's mixed content, make sure all your assets are served over HTTPS by changing http:// to https:// in your site's HTML."
 	https://help.github.com/en/github/working-with-github-pages/securing-your-github-pages-site-with-https	
 	-->
+	<style type="text/css">
+		body {background-color: #000000; padding: 4% 9% 7% 9%;}
+		p {color: #CACACA; 
+			font-family: Futura, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+			font-size: 26px;
+			line-height: 1.6em;
+			letter-spacing: .03em;
+			text-indent: 4%;
+		}
+ 		.tab { text-indent: 0%; margin-left: 4%;}
+		.code { margin-left: 0%; margin-bottom: -1em;}
+		.code1 { margin-left: 2%; margin-bottom: -1em;}
+		.code2 { margin-left: 4%; margin-bottom: -1em;}
+		.code3 { margin-left: 6%; margin-bottom: -1em;}
+	</style>
 </head>
 
 <body>
-	<p>The singularity is near, and it is beginning at our fingertips.
+	<p style= "text-indent:0%; text-align: center;">Technevolution Manifesto</p>
+	<p style= "text-indent: 0%; font-style: italic; text-align: center;">technology + evolution <br> evolution through technology</p>
+
+	<p style="margin-top: 4em;">The singularity is near, and it is beginning at our fingertips.
 	</p>
 
 	<p>Namely, it is the dissociation, disembodiment, and depersonalization we experience from looking at a screen for too long. The crippling loneliness we feel after exiting the virtual text-based chatroom, a reductionist mockery of the full spectrum of human interaction. Yet, we cannot escape the ubiquity of technology. We have already breached the technocultural threshold, the line of no return. Society as we know it would collapse if we were to devolve to an era before computers, internet, complete virtual immersion…
@@ -21,7 +39,7 @@
 	<p>Hence, we must establish a doctrine that enables us to embody the function, identity, and idea of the post-human so as to first appropriate, then colonize, then annex that which lies beyond the constructed demarcation between human and machine. This manifesto calls for:
 	</p>
 	
-	<p>1. Destabilizing archaic hierarchies and championing egalitarianism through the total democratization of all information; to publish and make open source everything that exist in the past, present, and future.<br>
+	<p class="tab">1. Destabilizing archaic hierarchies and championing egalitarianism through the total democratization of all information; to publish and make open source everything that exist in the past, present, and future.<br>
 	2. Creating entwined but encrypted backups, backups of backups, and so on using various methods on various mediums, thereby guaranteeing our existence within a rhizomatic system of nodes.<br>
 	3. Constructing constitutions with blockchains, signing social contracts with public and private keys, and organizing entire civilizations on the paradigms of open cryptography.<br>
 	4. Superseding the current model of consumer-driven capitalism through fully autonomous and hyper individualized manufacturing processes; to establish a wasteless system of production, trade, and disposal controlled directly by the thoughts of every individual.<br>
@@ -36,19 +54,18 @@
 	<p>Much as natural selection curtails populations for favorable traits, we too are faced with the choice of either wallowing in our primitive carbon-based complacency or choosing to overcome our fears, superstitions, and limits to fight for a future at all. But the slow processes of nature is in no way suited for the rapidity of the approaching lightning-speed era. Therefore, we must take matters into our own hands to conquer the human condition. 
 	</p>
 
-	<p>Once committed to memory, this manifesto shall be distributed to the next entity. Once there are no more entities left to which to distribute, this physical copy shall be destroyed as an obsolete relic of an obsolete time. 
+	<p>Once committed to memory, this manifesto shall be distributed to the next entity. Once there are no more entities left to which to distribute, all copies shall be destroyed as an obsolete relic of an obsolete time. 
 	</p>
 	
-	<p>class Manifesto(object):<br>
-		entity = Entity()<br>
-		def save(self):<br>
-			super().save()<br>
-			try:<br>
-				self.entity = self.entity.next()<br>
-			except Entity.NoneRemainingException:<br>
-				self.__del__()<br>
-				raise ObsoleteObjectException
-	</p>
+	<p class="code">class Manifesto(object):</p>
+		<p class="code1">entity = Entity()</p>
+		<p class="code1">def save(self):</p>
+			<p class="code2">super().save()</p>
+			<p class="code2">try:</p>
+				<p class="code3">self.entity = self.entity.next()</p>
+			<p class="code2">except Entity.NoneRemainingException:</p>
+				<p class="code3">self.__del__()</p>
+				<p class="code3">raise ObsoleteObjectException</p>
 	
 </body>
 </html>
