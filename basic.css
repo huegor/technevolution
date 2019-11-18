@@ -5,11 +5,11 @@ body {
 	padding: 4% 9% 7% 9%;
 }
 p {
-	color: #B1B1B1; 
+	color: #CACACA; 
 	font-family: Futura, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
 	font-size: 26px;
 	line-height: 1.6em;
-	letter-spacing: .03em;
+	letter-spacing: .03em;		
 	text-indent: 4%;
 }
 a {
@@ -45,4 +45,3 @@ a:active {
 	margin-left: 6%;
 	margin-bottom: -1em;
 }
-
