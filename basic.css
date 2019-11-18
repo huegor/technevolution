@@ -1,16 +1,48 @@
 @charset "UTF-8";
 /* CSS Document */
-body {background-color: #000000; padding: 4% 9% 7% 9%;}
-p {color: #CACACA; 
+body {
+	background-color: #000000; 
+	padding: 4% 9% 7% 9%;
+}
+p {
+	color: #B1B1B1; 
 	font-family: Futura, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
 	font-size: 26px;
 	line-height: 1.6em;
 	letter-spacing: .03em;
 	text-indent: 4%;
-	}
-.tab { text-indent: 0%; margin-left: 4%;}
-.code { margin-left: 0%; margin-bottom: -1em;}
-.code1 { margin-left: 2%; margin-bottom: -1em;}
-.code2 { margin-left: 4%; margin-bottom: -1em;}
-.code3 { margin-left: 6%; margin-bottom: -1em;}
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+.tab {
+	text-indent: 0%; 
+	margin-left: 4%;
+}
+.code {
+	margin-left: 0%; 
+	margin-bottom: -1em;
+}
+.code1 {
+	margin-left: 2%; 
+	margin-bottom: -1em;
+}
+.code2 {
+	margin-left: 4%; 
+	margin-bottom: -1em;
+}
+.code3 {
+	margin-left: 6%;
+	margin-bottom: -1em;
+}
 
