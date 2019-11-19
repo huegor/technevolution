@@ -10,20 +10,17 @@
 	<script>
 		function showNext() {
 			var x = document.getElementById("p1");
-			x.style.display = "inline";
-			/*
 			var nextSibling = p.nextSibling;
 			nextSibling.style.display = "inline";
 			while(nextSibling && nextSibling.nodeType != 0){
 				nextSibling = nextSibling.nextSibling
 			}
-			*/
 		}
 	</script>
 </head>
 
 <body>
-	<p style="display:inline" id="p0"><button onclick="showNext();">initial</button></p>
+	<p style="display:inline" id="p0"><a href="#" onclick="showNext();return false;">initial</a></p>
 	<p id="p1"><a href="#" onclick="showNext();return false;">one</a></p>
 	<p id="p2">two</p>
 	<p id="p3">three</p>
